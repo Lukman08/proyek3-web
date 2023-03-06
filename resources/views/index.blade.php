@@ -125,32 +125,7 @@
 
         <div class="section-title">
           <h2>Tentang</h2>
-        </div>
-
-        <div class="row content">
-          {{-- <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
-        </div> --}}
-
-        <h3>Hai Sobat Talkdent,</h3>
-        <p align="justify"> Sudahkan anda memeriksakan kondisi kesehatan pada gigi  anda secara rutin?
+          <p>Sudahkan anda memeriksakan kondisi kesehatan pada gigi  anda secara rutin?
             Jagalah kesehatan gigi anda, karena gigi merupakan prgan penting bagi kita.
             Talkdent hadir untuk memberikan solusi bagi sobat yang ingin melakukan
             pemeriksaan penyakit gigi secara mandiri, dan dapat dilakukan dimana
@@ -160,6 +135,62 @@
             penyakit gigi yang biasa dialami dan tentunnya dapat melakukan
             diagnosa secara mandiri yang disertai dengan informasi pencegahan
             atau penangan awal berdasarkan penyakit gigi yang dialami.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>"Talkdent Dental Clinic Klinik terbaik, terbesar, terbaru, di kota Jatibarang Indramayu. 
+              Terdiri dari dokter gigi dan dokter gigi spesialis berpengalaman, trampil dan profesional. 
+              Layanan perawatan gigi, estetika gigi."
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Treatment bleaching untuk menghempaskan noda kekuningan dan pulihkan cerah gigi.</li>
+              <li><i class="ri-check-double-line"></i> Treatment veneer untuk membuat tekstur gigi rata dan tidak bernoda.</li>
+              <li><i class="ri-check-double-line"></i> Scaling akan membantu membersihkan dan mengangkat karang gigi yang sudah menumpul.</li>
+              <li><i class="ri-check-double-line"></i> Implan gigi merupakan metode penanaman akar gigi buatan ke dalam rahang sebagai pondasi gigi pengganti.</li>
+              <li><i class="ri-check-double-line"></i> Veneer biasanya digunakan untuk memperbaiki gigi yang berubah warna,patah,rusak,tidak sejajar,tidak rata,tidak teratur bentuknya,atau yang memiliki celah.</li>
+              <li><i class="ri-check-double-line"></i> Penggunaan behel bertujuan agar gigi tumbuh ditempat yang semestinya, selain itu pemakai behel juga dapat melaraskan struktur gigi.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 d-flex align-items-stretch">
+            {{-- <div class="col-lg-5 d-flex align-items-stretch"> --}}
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Lokasi:</h4>
+                  <p>Jl Raya Bulak No.14, Bulak, Kec. Jatibarang, Kabupaten Indramayu, Jawa Barat 45273</p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+  
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              </div>
+  
+            {{-- </div> --}}
+          </div>
+        </div>
+
+        {{-- <h3>Hai Sobat Talkdent,</h3>
+        <p align="justify"> Sudahkan anda memeriksakan kondisi kesehatan pada gigi  anda secara rutin?
+            Jagalah kesehatan gigi anda, karena gigi merupakan prgan penting bagi kita.
+            Talkdent hadir untuk memberikan solusi bagi sobat yang ingin melakukan
+            pemeriksaan penyakit gigi secara mandiri, dan dapat dilakukan dimana
+            saja. Talkdent atau Sistem Pakar Diagnosa Penyakit Gigi adalah sebuah 
+            aplikasi konsultasi yang dibuat untuk membantu para sobat mendiagnosa
+            secara dini penyakit gigi yang anda alami dengan mandiri berdasarkan gejala yang dirasakan. Disini anda dapat melihat informasi berbagai 
+            penyakit gigi yang biasa dialami dan tentunnya dapat melakukan
+            diagnosa secara mandiri yang disertai dengan informasi pencegahan
+            atau penangan awal berdasarkan penyakit gigi yang dialami.</p> --}}
 
       </div>
     </section><!-- End About Us Section -->
@@ -213,14 +244,14 @@
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('')}}guest/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("{{asset('')}}guest/img/about.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
         </div>
 
       </div>
     </section><!-- End Why Us Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills">
+    {{-- <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -270,7 +301,7 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section><!-- End Skills Section --> --}}
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
@@ -365,7 +396,7 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    {{-- <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -475,14 +506,14 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Portfolio Section --> --}}
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Team</h2>
+          <h2>Diagnosa</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -562,7 +593,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    {{-- <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -620,10 +651,10 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section><!-- End Pricing Section --> --}}
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    {{-- <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -682,7 +713,7 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section><!-- End Frequently Asked Questions Section --> --}}
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
