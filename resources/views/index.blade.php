@@ -49,11 +49,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          {{-- <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li> --}}
-          <li><a class="nav-link scrollto" href="#team">Diagnosa</a></li>
-          {{-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> --}}
-          <li><a class="nav-link scrollto" href="#services">Info Penyakit</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
+          {{-- <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li> --}}
+          {{-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> --}}
+          <li><a class="nav-link scrollto" href="#services">Diagnosa</a></li>    
+          <li><a class="nav-link scrollto" href="#team">Info Penyakit</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -75,7 +75,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="{{asset('guest/img/icontalk.png')}}" class="img-fluid animated" alt="">
+          <img src="{{asset('guest/img/about.png')}}" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -170,10 +170,10 @@
                 <div class="phone">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p class="mb-3">0812-2010-9191</p>
                 </div>
   
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.362267119907!2d108.3097006153718!3d-6.475715865118641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ec78adc432d9f%3A0x6e4f0a22c19955cc!2sTalkdent%20Dental%20Clinic!5e0!3m2!1sen!2sid!4v1678236679338!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
               </div>
   
             {{-- </div> --}}
@@ -196,7 +196,7 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg">
+    <!-- <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
@@ -248,7 +248,7 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>End Why Us Section -->
 
     <!-- ======= Skills Section ======= -->
     {{-- <section id="skills" class="skills">
@@ -308,12 +308,12 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Info Penyakit Pada Gigi</h2>
-          <p>Lihat beberapa informasi seputar penyakit gigi.</p>
+          <h2>Diagnosa</h2>
+          <p>Daftar hasil diagnosa yang dilakukan pasien.</p>
         </div>
 
         <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <!-- <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Pulpitis</a></h4>
@@ -371,7 +371,7 @@
                 <h4><a href="">Penyakit gigi lainnya</a></h4>
                 <p>Jenis penyakit yang dapat dideteksi lainnya.</p>
               </div>
-            </div>
+            </div> -->
   
           </div>
 
@@ -379,7 +379,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
+    <!-- <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
 
         <div class="row">
@@ -393,7 +393,7 @@
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+    </section>End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
     {{-- <section id="portfolio" class="portfolio">
@@ -513,76 +513,116 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Diagnosa</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Info Penyakit Pada Gigi</h2>
+          <p>Lihat beberapa informasi seputar penyakit gigi.</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('')}}guest/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('guest/img/penyakit/pulpitis.png')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                <div class="social">
+                <h4>Pulpitis</h4>
+                <!-- <span>Chief Executive Officer</span> -->
+                <p>Pulpitis adalah kondisi inflamasi atau peradangan pada pulpa gigi yang merupakan jaringan lunak di dalam gigi yang mengandung saraf dan pembuluh darah.</p>
+                <!-- <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
                   <a href=""><i class="ri-instagram-fill"></i></a>
                   <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
+                </div> -->
+                <a href="https://www.google.com/search?q=Pulpitis&oq=Pulpitis&aqs=chrome..69i57j69i59j0i512j0i131i433i512j0i512j69i61j69i60j69i61.1007j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Lihat selengkapnya.</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('')}}guest/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('guest/img/penyakit/karies.jpg')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div class="social">
+                <h4>Karies</h4>
+                <!-- <span>Product Manager</span> -->
+                <p>Karies atau kerusakan gigi adalah kondisi di mana lapisan keras luar (enamel) pada gigi mengalami pengikisan dan membusuk akibat adanya aktivitas bakteri di dalam mulut.</p>
+                <!-- <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
                   <a href=""><i class="ri-instagram-fill"></i></a>
                   <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
+                </div> -->
+                <a href="https://www.google.com/search?q=Karies&oq=Karies&aqs=chrome..69i57j0i433i512j0i131i433i512j0i512l7.894j0j9&sourceid=chrome&ie=UTF-8" target="_blank">Lihat selengkapnya.</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('')}}guest/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('guest/img/penyakit/gingivitis.png')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
+                <h4>Gingivitis</h4>
+                <!-- <span>CTO</span> -->
+                <p>Gingivitis adalah kondisi peradangan pada gusi yang disebabkan oleh penumpukan plak pada gigi dan gusi</p>
+                <!-- <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
                   <a href=""><i class="ri-instagram-fill"></i></a>
                   <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
+                </div> -->
+                <a href="https://www.google.com/search?q=Gingivitis&oq=Gingivitis&aqs=chrome..69i57j0i512l9.574j0j9&sourceid=chrome&ie=UTF-8" target="_blank">Lihat selengkapnya.</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('')}}guest/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('guest/img/penyakit/periodontitis.jpg')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
+                <h4>Periodontitis</h4>
+                <!-- <span>Accountant</span> -->
+                <p>Periodontitis adalah kondisi peradangan pada jaringan pendukung gigi yang lebih serius dibandingkan gingivitis.</p>
+                <!-- <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
                   <a href=""><i class="ri-instagram-fill"></i></a>
                   <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
+                </div> -->
+                <a href="https://www.google.com/search?q=Periodontitis&oq=Periodontitis&aqs=chrome..69i57j0i512l9.1519j0j9&sourceid=chrome&ie=UTF-8" target="_blank">Lihat selengkapnya.</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('guest/img/penyakit/stomatitis.jpg')}}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Stomatitis</h4>
+                <!-- <span>CTO</span> -->
+                <p>Stomatitis adalah kondisi inflamasi pada selaput lendir di dalam mulut yang biasanya disebabkan oleh infeksi bakteri, virus, atau jamur, atau dapat pula disebabkan oleh kondisi medis yang lebih serius.</p>
+                <!-- <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div> -->
+                <a href="https://www.google.com/search?q=Stomatitis&oq=Stomatitis&aqs=chrome..69i57j0i512l9.911j0j9&sourceid=chrome&ie=UTF-8" target="_blank">Lihat selengkapnya.</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{asset('guest/img/penyakit/lainnya.png')}}" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Penyakit gigi lainnya</h4>
+                <!-- <span>Accountant</span> -->
+                <p>Selain penyakit gigi yang telah disebutkan seperti karies gigi, pulpitis, gingivitis, dan periodontitis, masih ada banyak penyakit gigi lainnya yang dapat mempengaruhi kesehatan gigi dan mulut.</p>
+                <!-- <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div> -->
+                <a href="https://www.google.com/search?q=penyakit+gigi&oq=penyakit+gigi&aqs=chrome..69i57j0i13i512l6j69i60.3295j0j9&sourceid=chrome&ie=UTF-8" target="_blank">Lihat selengkapnya.</a>
               </div>
             </div>
           </div>
@@ -716,7 +756,7 @@
     </section><!-- End Frequently Asked Questions Section --> --}}
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -783,14 +823,14 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>End Contact Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -802,54 +842,52 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Arsha</h3>
+            <h3>Talkdent</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+            Jl Raya Bulak No.14, Bulak, <br>
+            Kec. Jatibarang, Kabupaten Indramayu, <br>
+            Jawa Barat 45273<br><br>
+              <strong>Phone:</strong> 0812-2010-9191<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Link</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Diagnosa</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Info Penyakit</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Team</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/lukmanhkmz_/">Lukman Hakim</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/_ayuwyuni/">Sri Wahyuni</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/deafaradisa/">Dea Faradisa</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/spptrii/">Siti Putri Rohayati</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <h4>Sosial Media</h4>
+            <p>Kunjungi sosial media kami lainnya.</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+              <a href="https://www.facebook.com/senyumsehatsumringah/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/klinikgigi_talkdent/?hl=id" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+              <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
             </div>
           </div>
 
@@ -859,7 +897,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Kelompok 5 Proyek 3</span></strong>. D4RPL3 2023
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -875,16 +913,16 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{{asset('')}}guest/vendor/aos/aos.js"></script>
-  <script src="{{asset('')}}guest/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="{{asset('')}}guest/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="{{asset('')}}guest/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="{{asset('')}}guest/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="{{asset('')}}guest/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="{{asset('')}}guest/vendor/php-email-form/validate.js"></script>
+  <script src="{{asset('guest/vendor/aos/aos.js')}}"></script>
+  <script src="{{asset('guest/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('guest/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{asset('guest/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+  <script src="{{asset('guest/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{asset('guest/vendor/waypoints/noframework.waypoints.js')}}"></script>
+  <script src="{{asset('guest/vendor/php-email-form/validate.js')}}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{asset('')}}guest/js/main.js"></script>
+  <script src="{{asset('guest/js/main.js')}}"></script>
 
 </body>
 
