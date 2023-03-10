@@ -539,7 +539,7 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('guest/img/penyakit/karies.jpg')}}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('guest/img/penyakit/karies.png')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Karies</h4>
                 <!-- <span>Product Manager</span> -->
@@ -575,7 +575,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('guest/img/penyakit/periodontitis.jpg')}}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('guest/img/penyakit/periodontitis.png')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Periodontitis</h4>
                 <!-- <span>Accountant</span> -->
@@ -593,7 +593,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="{{asset('guest/img/penyakit/stomatitis.jpg')}}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{asset('guest/img/penyakit/stomatitis.png')}}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Stomatitis</h4>
                 <!-- <span>CTO</span> -->
