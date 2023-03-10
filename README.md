@@ -15,7 +15,7 @@ Team proyek 3 berasal dari kelompok 5 kelas D4RPL3 tahun 2023. yang beranggotaka
 - **[Dea Faradisa](https://www.instagram.com/deafaradisa/)**
 - **[Siti Putri Rohayati](https://www.instagram.com/spptrii/)**
 
-### Installation
+## Installation
 
 Laravel 10.x menggunakan PHP versi 8.0. Jadi kalau belum update dulu. Lalu pastikan sudah menginstal composer.
 
