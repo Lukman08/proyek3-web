@@ -2,7 +2,7 @@
 
 ## Profil Mitra
 
-<p align="center"><a href="https://www.instagram.com/klinikgigi_talkdent/?hl=id" target="_blank"><img src="guest/img/logo.png" width="50" alt="Logo Mitra"></a></p>
+<p align="center"><a href="https://www.instagram.com/klinikgigi_talkdent/?hl=id" target="_blank"><img src="https://drive.google.com/file/d/1qwmDtIktL3tNpvosu5piCPUjYX9JvnA9/view?usp=sharing" width="50" alt="Logo Mitra"></a></p>
 
 Talkdent Dental Clinic Klinik terbaik, terbesar, terbaru, di kota Jatibarang Indramayu. Terdiri dari dokter gigi dan dokter gigi spesialis berpengalaman, trampil dan profesional. Layanan perawatan gigi, estetika gigi.
 
