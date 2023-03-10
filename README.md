@@ -1,6 +1,8 @@
-<p align="center"><a href="https://polindra.ac.id/" target="_blank"><img src="https://rekreartive.com/wp-content/uploads/2018/11/Logo-Polindra-Politeknik-Negeri-Indramayu-Original.png.webp" width="400" alt="Logo"></a></p>
+<p align="center"><a href="https://polindra.ac.id/" target="_blank"><img src="https://rekreartive.com/wp-content/uploads/2018/11/Logo-Polindra-Politeknik-Negeri-Indramayu-Original.png.webp" width="100" alt="Logo Polindra"></a></p>
 
 ## Profil Mitra
+
+<p align="center"><a href="https://www.instagram.com/klinikgigi_talkdent/?hl=id" target="_blank"><img src="guest/img/logo.png" width="50" alt="Logo Mitra"></a></p>
 
 Talkdent Dental Clinic Klinik terbaik, terbesar, terbaru, di kota Jatibarang Indramayu. Terdiri dari dokter gigi dan dokter gigi spesialis berpengalaman, trampil dan profesional. Layanan perawatan gigi, estetika gigi.
 
@@ -17,7 +19,7 @@ Team proyek 3 berasal dari kelompok 5 kelas D4RPL3 tahun 2023. yang beranggotaka
 
 Laravel 10.x menggunakan PHP versi 8.0. Jadi kalau belum update dulu. Lalu pastikan sudah menginstal composer.
 
-1. Clone repository taroh ditempat yang di inginkan saran tempat di c:/xampp/htdocs/sisiarloji, bisa di download .zip atau dengan perintah git clone seperti ini
+1. Clone repository taroh ditempat yang di inginkan, bisa di download .zip atau dengan perintah git clone seperti ini
 
 
 ```
