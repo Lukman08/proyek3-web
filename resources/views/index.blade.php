@@ -155,22 +155,22 @@
           <div class="col-lg-6 pt-4 pt-lg-0 d-flex align-items-stretch">
             {{-- <div class="col-lg-5 d-flex align-items-stretch"> --}}
               <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
+                <div class="address mb-3">
+                  {{-- <i class="bi bi-geo-alt"></i> --}}
                   <h4>Lokasi:</h4>
                   <p>Jl Raya Bulak No.14, Bulak, Kec. Jatibarang, Kabupaten Indramayu, Jawa Barat 45273</p>
                 </div>
   
-                <div class="email">
+                {{-- <div class="email">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
                   <p>info@example.com</p>
-                </div>
+                </div> --}}
   
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
+                <div class="phone mb-3">
+                  {{-- <i class="bi bi-phone"></i> --}}
                   <h4>Call:</h4>
-                  <p class="mb-3">0812-2010-9191</p>
+                  <p>0812-2010-9191</p>
                 </div>
   
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.362267119907!2d108.3097006153718!3d-6.475715865118641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ec78adc432d9f%3A0x6e4f0a22c19955cc!2sTalkdent%20Dental%20Clinic!5e0!3m2!1sen!2sid!4v1678236679338!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
@@ -855,7 +855,7 @@
             Kec. Jatibarang, Kabupaten Indramayu, <br>
             Jawa Barat 45273<br><br>
               <strong>Phone:</strong> 0812-2010-9191<br>
-              <strong>Email:</strong> info@example.com<br>
+              {{-- <strong>Email:</strong> info@example.com<br> --}}
             </p>
           </div>
 
@@ -872,10 +872,10 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Team</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/lukmanhkmz_/">Lukman Hakim</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/_ayuwyuni/">Sri Wahyuni</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/deafaradisa/">Dea Faradisa</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/spptrii/">Siti Putri Rohayati</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/lukmanhkmz_/" target="_blank">Lukman Hakim</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/_ayuwyuni/" target="_blank">Sri Wahyuni</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/deafaradisa/" target="_blank">Dea Faradisa</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/spptrii/" target="_blank">Siti Putri Rohayati</a></li>
             </ul>
           </div>
 
@@ -884,8 +884,8 @@
             <p>Kunjungi sosial media kami lainnya.</p>
             <div class="social-links mt-3">
               <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-              <a href="https://www.facebook.com/senyumsehatsumringah/" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/klinikgigi_talkdent/?hl=id" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.facebook.com/senyumsehatsumringah/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/klinikgigi_talkdent/?hl=id" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
               <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
               <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
             </div>
@@ -904,7 +904,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
